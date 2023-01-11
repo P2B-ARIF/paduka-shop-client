@@ -1,0 +1,27 @@
+.header {
+  border: 2px solid #f4116c;
+}
+
+.h_product_card {
+  border-radius: 0.5rem;
+  border: 2px solid #f4116c;
+
+  /* background: rgb(255,255,255); */
+  background: linear-gradient(
+    357deg,
+    rgba(255, 255, 255, 1) 0%,
+    #ffffff44 100%
+  );
+}
+
+.h_product_card .off {
+  background-color: #f4116c;
+  font-size: 1rem;
+  color: white;
+  padding: 3px 10px;
+  border-radius: 0.5rem;
+  padding-top: 4px;
+  position: absolute;
+  right: -10%;
+  bottom: 10%;
+}

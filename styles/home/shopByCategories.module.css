@@ -1,0 +1,53 @@
+.category_content {
+  background-color: #f4116c;
+  border-radius: 1rem;
+  position: relative;
+
+  overflow: hidden;
+}
+.category_content .category_image_div {
+  height: 350px;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 1rem;
+  z-index: 0;
+}
+
+.category_content .category_image_div .category_img {
+  height: 100%;
+  width: 105%;
+  object-fit: cover;
+  object-position: left;
+  border: 1px solid #f4116c;
+  border-radius: 1rem;
+}
+
+.category_content > button {
+  font-weight: 600;
+  margin: 0.5rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+  background-color: #f4116c;
+  color: white;
+  border-radius: 1rem;
+  padding: 5px 15px;
+  padding-bottom: 3px;
+  display: flex;
+}
+
+.category_content > button > svg {
+  background-color: transparent;
+  color: white;
+  margin-right: 0.5rem;
+  margin-top: 3px;
+}
+
+.newOffer {
+  border: 2px solid #f4116c;
+  background-color: white;
+  overflow: hidden;
+  border-radius: 0.5rem;
+  color: #f4116c;
+}

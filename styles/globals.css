@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@300;400;500;600;700&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -7,4 +8,221 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
+  font-family: "Spartan", sans-serif;
+  scroll-behavior: smooth;
+  list-style: none;
+}
+
+body {
+  background-color: aliceblue;
+}
+
+.btn {
+  background-color: #f4116c;
+  padding: 0.5rem 1.5rem;
+  color: white;
+  font-weight: 600;
+  border-radius: 2rem;
+  border: 2px solid transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+  border: 2px solid #f4116c;
+  background-color: transparent;
+  color: #484848;
+}
+
+.btn_reverse {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+}
+
+.btn_reverse:hover {
+  border: 2px solid transparent;
+  color: white;
+  background-color: #f4116c;
+}
+
+.s_title {
+  font-weight: 600;
+  font-size: 1.2rem;
+  position: relative;
+  padding-top: 0.2rem;
+  padding-left: 0.5rem;
+  margin: 1rem 0;
+}
+.s_title::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 3px;
+  height: 100%;
+  background-color: #f4116c;
+}
+
+/* card__vertical start  */
+.card__vertical {
+  border: 2px solid #f4116c;
+  border-radius: 1rem;
+  overflow: hidden;
+  padding: 0.5rem;
+  transition: all 0.3s ease;
+}
+.card__vertical:hover {
+  box-shadow: #4545451a 0px 10px 25px -5px, #4949490a 0px 10px 10px -5px;
+}
+.card__vertical .cv_image {
+  border-radius: 1rem;
+  overflow: hidden;
+  height: 170px;
+}
+
+.card__vertical .cv_image > img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.card__vertical .cv_details {
+  margin-top: 0.5rem;
+  margin-left: 0.2rem;
+  position: relative;
+}
+.card__vertical .cv_details > p {
+  font-size: 0.8rem;
+}
+
+.card__vertical .cv_details > h4 {
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.card__vertical .cv_details .cv_price {
+  font-weight: 600;
+  color: #f4116c;
+  font-size: 0.9rem;
+}
+
+.card__vertical .cv_details > button {
+  padding: 5px;
+  background-color: aliceblue;
+  border-radius: 50%;
+  border: 1px solid #f4116c;
+  display: inline-block;
+  position: absolute;
+  top: -25px;
+  right: 10px;
+  transition: all 0.3s ease;
+}
+.card__vertical .cv_details > button:hover {
+  background-color: #f4116c;
+  border: 1px solid white;
+}
+.card__vertical .cv_details > button:hover svg {
+  color: white;
+  background-color: transparent;
+}
+
+.card__vertical .cv_details > button > svg {
+  color: #f4116c;
+  font-size: 1.5rem;
+}
+/* card__vertical end  */
+
+.card__horizontal {
+  display: flex;
+  width: 380px;
+  border: 2px solid #f4116c;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  transition: all 0.3s ease;
+}
+.card__horizontal:hover {
+  box-shadow: #4545451a 0px 10px 25px -5px, #4949490a 0px 10px 10px -5px;
+}
+.card__horizontal .ch_image {
+  width: 200px;
+  height: 120px;
+  overflow: hidden;
+  border-radius: 0.5rem;
+}
+
+.card__horizontal .ch_image > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+
+.card__horizontal .ch_details {
+  margin-left: 0.5rem;
+  position: relative;
+}
+
+.card__horizontal .ch_details > p {
+  font-size: 0.8rem;
+}
+.card__horizontal .ch_details > h4 {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.ch_details .ch_price {
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-left: 1rem;
+  color: #f4116c;
+}
+
+.card__horizontal .ch_details > button {
+  padding: 6px;
+  background-color: aliceblue;
+  border-radius: 50%;
+  border: 1px solid #f4116c;
+  display: inline-block;
+  position: absolute;
+  bottom: 0px;
+  left: -25px;
+  transition: all 0.3s ease;
+}
+
+.card__horizontal .ch_details > button:hover {
+  background-color: #f4116c;
+  border: 1px solid white;
+}
+.card__horizontal .ch_details > button:hover svg {
+  color: white;
+  background-color: transparent;
+}
+
+.card__horizontal .ch_details > button > svg {
+  color: #f4116c;
+  font-size: 1.1rem;
+}
+
+.products__List:hover > svg {
+  background-color: #eb0a64;
+}
+
+.number__input::-webkit-outer-spin-button,
+.number__input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.css-nnid7-MuiSlider-valueLabel {
+  margin-top: 0.5rem;
+  background-color: transparent;
+  color: #eb0a64;
+}
+
+.MuiSlider-valueLabelLabel {
+  font-weight: 600;
+  background-color: transparent;
+}
+
+.MuiSlider-valueLabelCircle {
+  background-color: transparent;
 }

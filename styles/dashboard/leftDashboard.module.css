@@ -1,0 +1,66 @@
+
+.dashboard_left {
+    width: 330px;
+  }
+  
+  .dashboard_left .profile {
+    padding: 1rem;
+    margin: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    border: 2px solid #f4116c;
+    background-color: #ff81b3;
+    display: flex;
+  }
+  
+  .dashboard_left .profile > img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .dashboard_left .profile .profile_details {
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+  }
+  
+  .dashboard_left .profile .profile_details > h3 {
+    font-weight: 600;
+    font-size: 1.2rem;
+  }
+  .dashboard_left .profile .profile_details > h4 {
+    font-weight: 600;
+  }
+  
+  .menu_list {
+    margin: 0rem 1.5rem;
+    border-radius: 1rem;
+    overflow: hidden;
+    border: 2px solid #f4116c;
+    background-color: #ff81b3;
+  }
+  
+  .menu_list .menu_ul .menu_li {
+    margin: 0.5rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+  .menu_list .menu_ul .menu_li > svg {
+    color: #3a3a3a;
+  }
+  .menu_list .menu_ul .menu_li:hover {
+    background-color: #f4116c;
+    color: white;
+  }
+  
+  .menu_list .menu_ul .menu_li:hover svg {
+    color: white;
+    background-color: transparent;
+  }

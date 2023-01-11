@@ -1,0 +1,17 @@
+.dashboard_body {
+  height: 90vh;
+  display: flex;
+  padding-top: 1rem;
+  gap: 1rem;
+  position: relative;
+}
+
+.login__field {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color:aliceblue;
+  z-index: 100;
+}

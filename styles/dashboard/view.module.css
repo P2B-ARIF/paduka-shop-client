@@ -1,0 +1,23 @@
+.balance_content {
+  margin: 1rem;
+  display: grid;
+
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1rem;
+}
+
+.balance_content .balance_card {
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.balance_content .balance_card h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: white;
+}
+.balance_content .balance_card span {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: white;
+}

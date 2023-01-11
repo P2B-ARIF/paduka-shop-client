@@ -1,0 +1,52 @@
+.discount_content {
+}
+.discount_content .d_card {
+    height: 250px;
+    overflow: hidden;
+    position: relative;
+}
+.discount_content .d_card .d_image {
+  position: relative;
+  z-index: 0;
+}
+
+.discount_content .d_card .d_image::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* background-color: #46464647; */
+  background: rgb(255,255,255);
+background: linear-gradient(230deg, #ffffff69 0%, #ff00aaa6 100%);
+  z-index: 10;
+
+}
+
+
+
+.discount_content .d_card .d_details {
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+    background-color: transparent;
+}
+
+
+.discount_content .d_card .d_details > h1{
+    background-color: transparent;
+    color: white;
+}
+.discount_content .d_card .d_details > h5{
+    background-color: transparent;
+    color: white;
+}
+.discount_content .d_card .d_details > p{
+    background-color: transparent;
+    color: white;
+}
+.discount_content .d_card .d_details > span{
+    background-color: transparent;
+    color: white;
+}
